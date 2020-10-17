@@ -1,0 +1,31 @@
+.RollDice-die {
+    display: flex;
+    justify-content: center;
+}
+
+.RollDice button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.RollDice button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+.RollDice-loser {
+    color: rgb(253, 25, 25);
+}
+
+.RollDice-winner {
+    color: rgb(0, 177, 0);
+}
+
+.RollDice-start {
+    color: black;
+}
